@@ -1,0 +1,5 @@
+<testsuite errors="0" failures="1" name="" skips="0" tests="1" time="65.9165520668"><testcase classname="SignUpEventPositiveTests" name="test_signup_event_pstve_create_account_US_DevTierDiscountDeal_both_the_addresses" result="FAILED"><failure message="'Failed' != 'PASS'" type="AssertionError">Traceback (most recent call last):
+  File "/home/anubha/.virtualenvs/cloud_cafe/lib/python2.7/site-packages/ubroast/bacp/smoke/bacp_event_tests.py", line 28, in ddtest_signup_event_pstve
+    print self.event_config.host
+AssertionError: 'Failed' != 'PASS'
+</failure></testcase></testsuite>

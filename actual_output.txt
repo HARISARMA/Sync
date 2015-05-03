@@ -1,0 +1,270 @@
+{
+   "description": "A cloud signup request from the retail site.",
+   "steps": {
+      "link": [
+         {
+            "rel": "VIA",
+            "href": "https://signup.staging.ord1.us.ci.rackspace.net/v1/signups/37165864/steps"
+         }
+      ],
+      "step": [
+         {
+            "description": "CONTRACT_ENTITY COMPLETE",
+            "link": [],
+            "id": "1646980",
+            "status": "COMPLETE",
+            "name": "CONTRACT_ENTITY",
+            "duration": "47",
+            "async": false
+         },
+         {
+            "description": "PAYMENT_CARD_VALIDATION COMPLETE",
+            "link": [],
+            "id": "1646981",
+            "status": "COMPLETE",
+            "name": "PAYMENT_CARD_VALIDATION",
+            "duration": "778",
+            "async": false
+         },
+         {
+            "description": "FRAUD_CHECK COMPLETE",
+            "link": [],
+            "id": "1646982",
+            "status": "COMPLETE",
+            "name": "FRAUD_CHECK",
+            "duration": "676",
+            "async": false
+         },
+         {
+            "description": "CLOUD_SERVICE_MIX COMPLETE",
+            "link": [],
+            "id": "1646983",
+            "status": "COMPLETE",
+            "name": "CLOUD_SERVICE_MIX",
+            "duration": "6469",
+            "async": false
+         },
+         {
+            "description": "CREATE_IDENTITY_USER COMPLETE",
+            "link": [],
+            "id": "1646984",
+            "status": "COMPLETE",
+            "name": "CREATE_IDENTITY_USER",
+            "duration": "1165",
+            "async": false
+         },
+         {
+            "description": "CLOUD_WELCOME_EMAIL COMPLETE",
+            "link": [],
+            "id": "1646985",
+            "status": "COMPLETE",
+            "name": "CLOUD_WELCOME_EMAIL",
+            "duration": "143",
+            "async": true
+         },
+         {
+            "description": "CLOUD_SITE_ATOM_HOPPER COMPLETE",
+            "link": [],
+            "id": "1646986",
+            "status": "COMPLETE",
+            "name": "CLOUD_SITE_ATOM_HOPPER",
+            "duration": "265",
+            "async": true
+         }
+      ]
+   },
+   "signupData": {
+      "contacts": {
+         "link": [],
+         "contact": [
+            {
+               "addresses": {
+                  "link": [],
+                  "address": [
+                     {
+                        "link": [],
+                        "primary": true,
+                        "street": "5000 Walzem Road",
+                        "city": "San Antonio",
+                        "state": "TX",
+                        "country": "US",
+                        "zipcode": "78214"
+                     }
+                  ]
+               },
+               "emailAddresses": {
+                  "link": [],
+                  "emailAddress": [
+                     {
+                        "link": [],
+                        "primary": true,
+                        "address": "brady@vitrano.me"
+                     }
+                  ]
+               },
+               "phoneNumbers": {
+                  "link": [],
+                  "phoneNumber": [
+                     {
+                        "link": [],
+                        "number": "123-456-7890",
+                        "primary": true,
+                        "country": "US",
+                        "category": "HOME"
+                     }
+                  ]
+               },
+               "roles": {
+                  "role": [
+                     "PRIMARY"
+                  ]
+               },
+               "user": {
+                  "secretQA": {
+                     "question": "X",
+                     "answer": "X"
+                  },
+                  "username": "ss_1700_176",
+                  "password": "X"
+               },
+               "link": [],
+               "firstName": "John",
+               "lastName": "doe",
+               "suffix": "Senior",
+               "title": "Mr"
+            },
+            {
+               "addresses": {
+                  "link": [],
+                  "address": [
+                     {
+                        "link": [],
+                        "primary": true,
+                        "street": "2, Bill Street",
+                        "city": "Austin",
+                        "state": "TX",
+                        "country": "US",
+                        "zipcode": "78633"
+                     }
+                  ]
+               },
+               "emailAddresses": {
+                  "link": [],
+                  "emailAddress": [
+                     {
+                        "link": [],
+                        "primary": true,
+                        "address": "brady@vitrano.me"
+                     }
+                  ]
+               },
+               "phoneNumbers": {
+                  "link": [],
+                  "phoneNumber": [
+                     {
+                        "link": [],
+                        "number": "234-567-8901",
+                        "primary": true,
+                        "country": "US",
+                        "category": "OFFICE"
+                     }
+                  ]
+               },
+               "roles": {
+                  "role": [
+                     "BILLING"
+                  ]
+               },
+               "link": [],
+               "firstName": "Jaya Ruban Kumar",
+               "lastName": "S P",
+               "suffix": "Senior",
+               "title": "Mr"
+            }
+         ]
+      },
+      "paymentMethod": {
+         "paymentCard": {
+            "cardHolderName": "X",
+            "cardNumber": "XXXXXXXXXXXX4113",
+            "expirationDate": "X",
+            "cardVerificationNumber": "X",
+            "cardType": "X"
+         }
+      },
+      "description": "A cloud signup request from the retail site.",
+      "metadata": {
+         "property": [
+            {
+               "key": "cloudSitesPurchased",
+               "value": "false"
+            },
+            {
+               "key": "cloudFilesPurchased",
+               "value": "true"
+            },
+            {
+               "key": "cloudServersPurchased",
+               "value": "true"
+            },
+            {
+               "key": "loadBalancersPurchased",
+               "value": "false"
+            },
+            {
+               "key": "ipAddress",
+               "value": "192.0.2.10"
+            },
+            {
+               "key": "rackUID",
+               "value": "277298293"
+            },
+            {
+               "key": "deviceFingerPrint",
+               "value": "134.288-8901"
+            }
+         ]
+      },
+      "affiliateCodeAndType": {
+         "code": "My Affiliate",
+         "type": "BRC"
+      },
+      "order": {
+         "item": [
+            {
+               "item": [],
+               "offeringId": "CLOUD_SITES",
+               "productId": "CLOUD_SITES",
+               "quantity": 1
+            }
+         ]
+      },
+      "link": [],
+      "region": "US",
+      "geography": "US",
+      "accountName": "approve",
+      "vatCode": "GB0177282",
+      "acceptTermsAndConditions": true,
+      "termsAndConditions": "US",
+      "promoCode": "2882005530",
+      "serviceLevel": "MANAGED",
+      "serviceType": "SYSOPS",
+      "rackerId": "277298293",
+      "type": "TRUSTED_CLOUD",
+      "skipFraudCheck": false,
+      "businessType": "CONSUMER",
+      "paymentMethodValidationId": "urn:uuid:96c25235-4322-4185-8a85-8e1c3ed4f6c7",
+      "contractEntity": "CONTRACT_US",
+      "fraudDecision": "ACCEPT"
+   },
+   "link": [],
+   "id": "37165864",
+   "region": "US",
+   "geography": "US",
+   "status": "COMPLETE",
+   "type": "TRUSTED_CLOUD",
+   "date": "2015-02-21T11:03:27.499Z",
+   "duration": "10585",
+   "referenceEntityId": "6143071",
+   "rackUID": "277298293"
+}
